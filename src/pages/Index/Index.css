@@ -1,0 +1,35 @@
+.index-footer{
+    position: fixed;
+    width: 100vw;
+    height: 0.8rem;
+    background-color: #F5F5F9;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    border-top: 0.01rem solid #ccc;
+}
+.index-footer a{
+    flex: 1;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #333333;
+    text-decoration: none;
+}   
+.index-footer .select{
+    color: #FF9A00;
+}
+.footer2{
+    height: 1.0rem;
+}
+.footer2 a{
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+}
+.footer2 img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-top: 0.1rem;
+}
+.footer2 a div{
+    line-height: 0.4rem;
+}

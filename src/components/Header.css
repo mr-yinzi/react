@@ -1,0 +1,27 @@
+.header {
+    background-color: rgb(255, 153, 0);
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    height: 1rem;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header .resect {
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+    color: #fff ;
+    height: 1rem;
+}
+.header .back {
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+    color: #fff ;
+    height: 1rem;
+}

@@ -1,0 +1,66 @@
+.black{
+    width: 100vw;
+    height: 100vh;
+    background-color: #999999cc;
+    position: fixed;
+    top: 0;
+}
+.black .popBox{
+    background-color: #fff;
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+}
+.black .boxTop {
+    overflow: hidden;
+    padding: 0.3rem;
+}
+.black .boxTop img{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+}
+.black .boxTop p{
+    font-size: 0.4rem;
+    margin-left: 0.4rem;
+    float: left;
+    position: relative;
+}
+.black .boxCenter p{
+    font-size: 0.4rem;
+    margin-left: 0.4rem;
+    font-weight: bold;
+}
+.black .boxBttom{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 1rem;
+}
+.black .btn{
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0.3rem;
+    background-color: orange;
+    color: #fff;
+    font-size: 0.3rem;
+}
+.spec{
+    padding: 0.2rem 0.3rem;
+    margin: 0.2rem 0 0.2rem 0.3rem;
+    float: left;
+    border: 0.01rem solid #ddd;
+    border-radius: 0.15rem;
+
+}
+.spec:hover{
+    border: orange 0.01rem solid;
+    color: orange;
+}
+.blackTop{
+    width: 100%;
+    height: 100vh;
+}

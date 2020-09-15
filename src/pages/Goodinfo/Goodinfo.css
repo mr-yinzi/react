@@ -1,0 +1,88 @@
+.imgBox img{
+width: 100%;
+height: 4rem;
+}
+.centerTop{
+    height: 1rem;
+    background-color: #fff;
+}
+.centerTop .title{
+    float: left;
+    line-height: 1rem;
+    margin-left: 0.3rem;
+    font-size: 0.5rem;
+}
+.centerTop .like{
+    float: right;
+    text-align: center;
+    color: orangered;
+    margin-right: 0.3rem;
+    margin-top: 0.1rem;
+    padding:0 0.1rem;
+    border-left: 0.01rem solid #c0c0c0;
+}
+.centerTop .like img{
+   width: 0.4rem;
+   margin-bottom: 0.1rem;
+}
+.centerBottom{
+    height: 1.5rem;
+    background-color: #fff;
+}
+.centerBottom .price{
+    /* width: 1.5rem; */
+    margin-right:0.4rem;
+    height: 1.5rem;
+    float: left;
+    font-size: 0.4rem;
+    padding: 0.2rem;
+}
+.centerBottom .price .now_price{
+   color: red;
+   margin-bottom: 0.3rem;
+}
+.centerBottom .price .market_price{
+    text-decoration:line-through
+}
+.centerBottom .newHot{
+    font-size: 0.3rem;
+    color: orange;
+    width: 3rem;
+    height: 1.5rem;
+    float: left;
+}
+.centerBottom .newHot .new,.centerBottom .newHot .hot{
+    margin-top: 0.3rem;
+    float: left;
+    border: 0.01rem solid orange;
+    padding: 0.1rem 0.2rem;
+    margin-left: 0.2rem;
+}
+.goods_more{
+    margin-top: 0.3rem;
+}
+.goods_more img{
+    width: 100%;
+}
+.goodsmore{
+    margin-bottom: 1.2rem;
+}
+.bottom{
+    width: 100%;
+    height: 1rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    border-top: 0.02rem solid #c0c0c0;
+}
+.bottom .btn{
+    float: right;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    padding: 0.2rem;
+    font-size: 0.4rem;
+    color: #fff;
+    background-color: orange;
+}

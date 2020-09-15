@@ -1,0 +1,28 @@
+.right{
+    float: right;
+    width: 5rem;
+}
+  
+.right .box{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0.1rem;
+    overflow: hidden;
+    float: left;
+    text-align: center; 
+     position: relative;
+     border-radius: 0.15rem;
+     border: solid 0.01rem #1D84A7;
+}
+.right img{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.right p{
+    width: 2rem;
+    padding: 0.1rem;
+    background-color: #1D84A7;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}

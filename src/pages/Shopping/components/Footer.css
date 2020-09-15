@@ -1,0 +1,36 @@
+.footer{
+    height: 1.2rem;
+    width: 100%;
+    border-top: 0.01rem #ccc solid;
+    position: fixed;
+    bottom: 1rem;
+    background-color: #F5F5F9;
+}
+.footerOne,.footerTwo{
+    float: left;
+    padding: 0.2rem 0.3rem;
+    text-align: center;
+}
+.footerThree{
+    float: left;
+    padding: 0.2rem 0.3rem;
+}
+.footerThree p{
+    margin: 0.1rem;
+}
+.footerThree p:last-child{
+    color: #999;
+}
+.footerOne img,.footerTwo img{
+    width: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+.footerFour{
+    float: right;
+    background-color: orange;
+    width: 2rem;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    color: #F5F5F9;
+}
